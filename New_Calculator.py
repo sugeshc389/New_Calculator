@@ -1,11 +1,16 @@
 from tkinter import *
 
+
 def btnClick(numbers):
     global operator
     operator = operator + str(numbers)
     text_Input.set(operator)
 
 
+def btnClearDisplay():
+    global operator
+    operator = " "
+    text_Input.set(" ")
 
 
 cal = Tk()
