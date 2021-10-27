@@ -1,5 +1,10 @@
 from tkinter import *
 
+def btnClick(numbers):
+    global operator
+    operator = operator + str(numbers)
+    text_Input.set(operator)
+
 
 
 
